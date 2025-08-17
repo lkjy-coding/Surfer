@@ -13,4 +13,4 @@ Some of the words in the things that Surfer output is kind of hard to know their
 
 If you want to get help or other versions of Surfer,just visit www.acwing.com and search "lkjy"(it's better to use AcWing APP to search).
 
-What?You say that you can't find the way to download the AcWing APP?Just download by the QR code in https://www.acwing.com/app/version/download/index/ !
+What?You say that you can't find the way to download the AcWing APP?Just download by the QR code in https://www.acwing.com/app/version/download/index/ !But the AcWing APP is only for mobile phones!If you want to download the AcWing APP for 32-bit,just look for the instructions,if there is "32位版本" in the instructions of a version,it's the 32-bit version.
