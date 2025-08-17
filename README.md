@@ -12,3 +12,5 @@ If you want to run Surfer version 3.0(Codes) with less memory, please copy and u
 Some of the words in the things that Surfer output is kind of hard to know their meanings.If you don't know the meanings of this kind of words,you can ask me.
 
 If you want to get help or other versions of Surfer,just visit www.acwing.com and search "lkjy"(it's better to use AcWing APP to search).
+
+What?You say that you can't find the way to download the AcWing APP?Just download by the QR code in https://www.acwing.com/app/version/download/index/ !
