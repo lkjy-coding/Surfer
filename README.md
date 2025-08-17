@@ -5,4 +5,4 @@ If you can't run the codes,just delete all the Chinese words.If you deleted all 
 
 You can change the codes and send it on other webs or GitHub.Don't say that you're the first editer of it.
 
-Ver.3 please use file:Codes.
+Ver.3's file is Codes.
