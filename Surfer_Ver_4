@@ -1,0 +1,510 @@
+//run it as a cpp file
+//Surfer Ver.4
+#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<string>
+#include<map>
+#include<cmath>
+#include<windows.h>
+#include<time.h>
+#include<stdlib.h>
+using namespace std;
+void color(int a) {
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), a);
+}
+int main(){
+    int y=-1;
+    system("title surfer");
+    string ans;
+    color(2);
+    cout<<"You can use the Lnternet with it."<<endl;
+    cout<<"Type in any net in order."<<endl;
+    cout<<"You can also type in \"help\" to get the help."<<endl;
+    while(y<0){
+    color(11);
+    cout<<"Please type in:";
+    color(7);
+    cin>>ans;
+    if(ans=="help"){
+        color(11);
+        cout<<"You can type in these..."<<endl;
+        color(6);
+        cout<<"htxps://www.www.com"<<endl;
+        cout<<"htxps://www.com.com";
+        color(4);
+        cout<<"(We banned it)"<<endl;
+        color(6);
+        cout<<"htxps://www.coding.com"<<endl;
+        cout<<"htxps://www.lbt.com"<<endl;
+        color(11);
+        cout<<"You can also type in \"";
+        color(6);
+        cout<<"cls";
+        color(11);
+        cout<<"\" to clear the screen."<<endl;
+        color(11);
+        cout<<"Or \"";
+        color(6);
+        cout<<"exit";
+        color(11);
+        cout<<"\" to exit this surfer."<<endl;
+        color(14);
+        cout<<"-------------------------"<<endl;
+        cout<<"      Version 14.20"<<endl;
+        cout<<"-------------------------"<<endl;
+        color(1);
+        cout<<endl;
+        color(1);
+        color(4);
+        cout<<"Made In China";
+        color(1);
+        cout<<endl;
+        color(1);
+        color(10);
+        cout<<"Made By Liang Kejunyu"<<endl;
+        color(1);
+        color(7);
+    }
+    else{
+        if(ans=="htxps://www.www.com"||ans=="www.www.com"||ans=="www.com"){
+//          color(8);
+//          cout<<"THIS WEB IS BUILDING..."<<endl;
+            color(10);
+            cout<<"This Web Is Selling!"<<endl;
+            color(11);
+            cout<<"You can pay for ";
+            color(10);
+            cout<<"$10000";
+            color(11);
+            cout<<" to buy it!"<<endl;
+            color(100);
+            cout<<"A FAKE SELLING,DO NOT BELIEVE IT.";
+//          color(7);
+            color(1);
+            cout<<endl;
+        }
+        else if(ans=="htxps://www.com.com"||ans=="www.com.com"||ans=="com.com"){
+            color(4);
+            cout<<"########################################"<<endl;
+            cout<<"Sorry,you have been blocked."<<endl;
+            cout<<"This web has many uncomfortable things."<<endl;
+            cout<<"########################################"<<endl;
+            color(11);
+            cout<<"Why I have been blocked?"<<endl;
+            color(12);
+            cout<<"Because the web broke our rules."<<endl;
+            color(11);
+            cout<<"What can I do to disblock this web?"<<endl;
+            color(12);
+            cout<<"If you\'re the cheif of the web,you can cortant to us."<<endl;
+            cout<<"If you aren\'t,you can disup this to us."<<endl;
+            string disup_one;
+            color(5);
+            cout<<"Do you want to ";
+            color(10);
+            cout<<"tip-off";
+            color(5);
+            cout<<" this?"<<endl;
+            color(9);
+            cout<<"\'Y\' for \"yes\" and \'N\' for \"no\"."<<endl;
+            cin>>disup_one;
+            if(disup_one=="Y"||disup_one=="N"){
+                if(disup_one=="Y"){
+                    color(10);
+                    cout<<"OK,we get it!"<<endl;
+                    color(7);
+                }
+                else if(disup_one=="N"){
+                    color(9);
+                    cout<<"Okay."<<endl;
+                    color(7);
+                }
+            }
+            else{
+                color(100);
+                cout<<"You get an \"N\"."<<endl;
+                color(7);
+            }
+            color(7);
+        }
+        else if(ans=="htxps://www.coding.com"||ans=="www.coding.com"||ans=="coding.com"){
+            int yy=-1;
+            color(11);
+            cout<<"Welcome To Our Coding Net!"<<endl;
+            string ans_in_coding_net;
+            color(9);
+            cout<<"You can type in \"questions\" to get the questions."<<endl;
+            color(11);
+            cout<<"Or type in \"exit\" to exit this net."<<endl;
+            cout<<"If you typed in something but the web doesn\'t return anything,it may mean ";
+            color(100);
+            cout<<"you typed in a wrong answer";
+            color(11);
+            cout<<"."<<endl;
+            cout<<"Then you can ";
+            color(10);
+            cout<<"type in the right answer after you typed in a wrong answer";
+            color(11);
+            cout<<"."<<endl;
+            color(7);
+            while(yy<0){
+            cin>>ans_in_coding_net;
+            if(ans_in_coding_net=="questions"){
+                color(9);
+                cout<<"Please type in an integer between 1-10."<<endl;
+                int ans_in_code_of_the_questions;
+                color(7);
+                cin>>ans_in_code_of_the_questions;
+                color(5);
+                if(ans_in_code_of_the_questions==1){
+                    string answer_the_coding_question_first;
+                    cout<<"What\'s the head files\' includer?"<<endl;
+                    color(11);
+                    cout<<"Your answer is:";
+                    color(7);
+                    cin>>answer_the_coding_question_first;
+                    color(9);//10 qian lv
+                    if(answer_the_coding_question_first=="include"||answer_the_coding_question_first=="#include"){
+                        color(10);
+                        cout<<"Yes,that\'s right."<<endl;
+                        color(11);
+                        cout<<"Type in \"";
+                        color(6);
+                        cout<<"exit";
+                        color(11);
+                        cout<<"\" to exit..."<<endl;
+                    }
+                    else{
+                        color(4);
+                        cout<<"Oops,it\'s a wrong answer."<<endl;
+                        color(100);
+                        cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                        cout<<"Tips:You Can Only Type In The Two."<<endl;
+                        color(6);
+                        cout<<"Your answer is:";
+                        color(7);
+                        string coding_net_one_do_you_want_to_see_the_true_answer;
+                        cin>>coding_net_one_do_you_want_to_see_the_true_answer;
+                        if(coding_net_one_do_you_want_to_see_the_true_answer == "Y"||coding_net_one_do_you_want_to_see_the_true_answer == "N"){
+                            if(coding_net_one_do_you_want_to_see_the_true_answer=="Y"){
+                                color(6);
+                                cout<<"The true answer is:";
+                                color(10);
+                                cout<<"include";
+                                color(5);
+                                cout<<" or ";
+                                color(10);
+                                cout<<"#include"<<endl;
+                                color(11);
+                                cout<<"Type in \"";
+                                color(6);
+                                cout<<"exit";
+                                color(11);
+                                cout<<"\" to exit..."<<endl;
+                            }
+                        }
+                        else{
+                            color(4);
+                            cout<<"Oops,it\'s a wrong answer."<<endl;
+                            color(100);
+                            cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                            cout<<"Tips:You Can Only Type In The Two."<<endl;
+                            color(6);
+                            cout<<"Your answer is:";
+                            color(7);
+                            cin>>coding_net_one_do_you_want_to_see_the_true_answer;
+                        }
+
+                    }
+                }
+                if(ans_in_code_of_the_questions==2){
+                    cout<<"What will you use when you need to list the results in if?"<<endl;
+                    string two_ans_in_the_coding_net_questions;
+                    color(7);
+                    cin>>two_ans_in_the_coding_net_questions;
+                    if(two_ans_in_the_coding_net_questions=="if"){
+                        color(10);
+                        cout<<"Yes,that\'s right."<<endl;
+                        color(11);
+                        cout<<"Type in \"";
+                        color(6);
+                        cout<<"exit";
+                        color(11);
+                        cout<<"\" to exit..."<<endl;
+                    }
+                    else{
+                    color(4);
+                        cout<<"Oops,it\'s a wrong answer."<<endl;
+                        color(100);
+                        cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                        cout<<"Tips:You Can Only Type In The Two."<<endl;
+                        color(6);
+                        cout<<"Your answer is:";
+                        color(7);
+                        string coding_net_two_do_you_want_to_see_the_true_answer;
+                        cin>>coding_net_two_do_you_want_to_see_the_true_answer;
+                        if(coding_net_two_do_you_want_to_see_the_true_answer == "Y"||coding_net_two_do_you_want_to_see_the_true_answer == "N"){
+                            if(coding_net_two_do_you_want_to_see_the_true_answer=="Y"){
+                                color(6);
+                                cout<<"The true answer is:";
+                                color(10);
+                                cout<<"if"<<endl;
+                                color(11);
+                                cout<<"Type in \"";
+                                color(6);
+                                cout<<"exit";
+                                color(11);
+                                cout<<"\" to exit..."<<endl;
+                            }
+                        }
+                        else{
+                            color(4);
+                            cout<<"Oops,it\'s a wrong answer."<<endl;
+                            color(100);
+                            cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                            cout<<"Tips:You Can Only Type In The Two."<<endl;
+                            color(6);
+                            cout<<"Your answer is:";
+                            color(7);
+                            cin>>coding_net_two_do_you_want_to_see_the_true_answer;
+                        }
+
+                    }
+                }
+                if(ans_in_code_of_the_questions==3){
+                    cout<<"What will you use when you need to list the results in if but not \"if\" or \"else if\"?"<<endl;
+                    string three_ans_in_the_coding_net_questions;
+                    color(7);
+                    cin>>three_ans_in_the_coding_net_questions;
+                    if(three_ans_in_the_coding_net_questions=="else"){
+                        color(10);
+                        cout<<"Yes,that\'s right."<<endl;
+                        color(11);
+                        cout<<"Type in \"";
+                        color(6);
+                        cout<<"exit";
+                        color(11);
+                        cout<<"\" to exit..."<<endl;
+                    }
+                    else{
+                        color(4);
+                        cout<<"Oops,it\'s a wrong answer."<<endl;
+                        color(100);
+                        cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                        cout<<"Tips:You Can Only Type In The Two."<<endl;
+                        color(6);
+                        cout<<"Your answer is:";
+                        color(7);
+                        string coding_net_three_do_you_want_to_see_the_true_answer;
+                        cin>>coding_net_three_do_you_want_to_see_the_true_answer;
+                        if(coding_net_three_do_you_want_to_see_the_true_answer == "Y"||coding_net_three_do_you_want_to_see_the_true_answer == "N"){
+                            if(coding_net_three_do_you_want_to_see_the_true_answer=="Y"){
+                                color(6);
+                                cout<<"The true answer is:";
+                                color(10);
+                                cout<<"else"<<endl;
+                                color(11);
+                                cout<<"Type in \"";
+                                color(6);
+                                cout<<"exit";
+                                color(11);
+                                cout<<"\" to exit..."<<endl;
+                            }
+                        }
+                        else{
+                            color(4);
+                            cout<<"Oops,it\'s a wrong answer."<<endl;
+                            color(100);
+                            cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                            cout<<"Tips:You Can Only Type In The Two."<<endl;
+                            color(6);
+                            cout<<"Your answer is:";
+                            color(7);
+                            cin>>coding_net_three_do_you_want_to_see_the_true_answer;
+                        }
+
+                    }
+                }
+                if(ans_in_code_of_the_questions==4){
+                    string forth_answer_the_coding_question;
+                    cout<<"What\'s the head files\' includer?"<<endl;
+                    color(11);
+                    cout<<"Your answer is:";
+                    color(7);
+                    cin>>forth_answer_the_coding_question;
+                    color(9);
+                    if(forth_answer_the_coding_question=="iostream"||forth_answer_the_coding_question=="<iostream>"){
+                        color(10);
+                        cout<<"Yes,that\'s right."<<endl;
+                        color(11);
+                        cout<<"Type in \"";
+                        color(6);
+                        cout<<"exit";
+                        color(11);
+                        cout<<"\" to exit..."<<endl;
+                    }
+                    else{
+                        color(4);
+                        cout<<"Oops,it\'s a wrong answer."<<endl;
+                        color(100);
+                        cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                        cout<<"Tips:You Can Only Type In The Two."<<endl;
+                        color(6);
+                        cout<<"Your answer is:";
+                        color(7);
+                        string si_coding_net_one_do_you_want_to_see_the_true_answer;
+                        cin>>si_coding_net_one_do_you_want_to_see_the_true_answer;
+                        if(si_coding_net_one_do_you_want_to_see_the_true_answer == "Y"||si_coding_net_one_do_you_want_to_see_the_true_answer == "N"){
+                            if(si_coding_net_one_do_you_want_to_see_the_true_answer=="Y"){
+                                color(6);
+                                cout<<"The true answer is:";
+                                color(10);
+                                cout<<"iostream";
+                                color(5);
+                                cout<<" or ";
+                                color(10);
+                                cout<<"<iostream>"<<endl;
+                                color(11);
+                                cout<<"Type in \"";
+                                color(6);
+                                cout<<"exit";
+                                color(11);
+                                cout<<"\" to exit..."<<endl;
+                            }
+                        }
+                        else{
+                            color(4);
+                            cout<<"Oops,it\'s a wrong answer."<<endl;
+                            color(100);
+                            cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                            cout<<"Tips:You Can Only Type In The Two."<<endl;
+                            color(6);
+                            cout<<"Your answer is:";
+                            color(7);
+                            cin>>si_coding_net_one_do_you_want_to_see_the_true_answer;
+                        }
+
+                    }
+                }
+                if(ans_in_code_of_the_questions==5){
+                    string fifth_answer_the_coding_question;
+                    cout<<"What can you running the count--plus?"<<endl;
+                    color(11);
+                    cout<<"Your answer is:";
+                    color(7);
+                    cin>>fifth_answer_the_coding_question;
+                    color(9);
+                    if(fifth_answer_the_coding_question=="+"){
+                        color(10);
+                        cout<<"Yes,that\'s right."<<endl;
+                        color(11);
+                        cout<<"Type in \"";
+                        color(6);
+                        cout<<"exit";
+                        color(11);
+                        cout<<"\" to exit..."<<endl;
+                    }
+                    else{
+                        color(4);
+                        cout<<"Oops,it\'s a wrong answer."<<endl;
+                        color(100);
+                        cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                        cout<<"Tips:You Can Only Type In The Two."<<endl;
+                        color(6);
+                        cout<<"Your answer is:";
+                        color(7);
+                        string wu_coding_net_one_do_you_want_to_see_the_true_answer;
+                        cin>>wu_coding_net_one_do_you_want_to_see_the_true_answer;
+                        if(wu_coding_net_one_do_you_want_to_see_the_true_answer == "Y"||wu_coding_net_one_do_you_want_to_see_the_true_answer == "N"){
+                            if(wu_coding_net_one_do_you_want_to_see_the_true_answer=="Y"){
+                                color(6);
+                                cout<<"The true answer is:";
+                                color(10);
+                                cout<<"+";
+                                color(11);
+                                cout<<"Type in \"";
+                                color(6);
+                                cout<<"exit";
+                                color(11);
+                                cout<<"\" to exit..."<<endl;
+                            }
+                        }
+                        else{
+                            color(4);
+                            cout<<"Oops,it\'s a wrong answer."<<endl;
+                            color(100);
+                            cout<<"Do you want to know the true answer about that?Type in \'Y\' is \'yes\' or \'N\' is \'no\'."<<endl;
+                            cout<<"Tips:You Can Only Type In The Two."<<endl;
+                            color(6);
+                            cout<<"Your answer is:";
+                            color(7);
+                            cin>>wu_coding_net_one_do_you_want_to_see_the_true_answer;
+                        }
+
+                    }
+                }
+                else{
+                    color(100);
+                    cout<<"Oops,that\'s not a good idea."<<endl;
+                    color(8);
+                    cout<<"Left the web..."<<endl;
+                    color(1);
+                    break;
+                }
+                color(7);
+            }
+            else if(ans_in_coding_net=="exit"){
+                color(11);
+                cout<<"Bye!"<<endl;
+                yy=1;
+            }
+        }
+        }
+        else if(ans=="exit"){
+            color(11);
+            cout<<"Have a good time!"<<endl;
+            color(1);
+            return 0;
+        }
+        else if(ans=="cls"){
+            system("cls");
+        }
+
+        else if(ans=="htxps://www.lbt.com"||ans=="www.lbt.com"||ans=="lbt.com"){
+            cout<<"If you want to leave,please press ALT+F4(if you cannot press F4,you need to press Fn+F4.)."<<endl;
+            cout<<"\"0\" will appear twice,it isn\'t a bug."<<endl;
+            int lbty=-1;
+            while(lbty<0){
+                int k=0;
+                if(k<=6){
+                for(int i=0;i<=6;i++){
+                cout<<k<<endl;
+                Sleep(3000);
+                k=i;
+                system("cls");
+                }
+                }
+                else if(k>6){
+                    k=1;
+                }
+            }
+        }
+
+        else{
+            color(100);
+            cout<<"It\'s a wrong answer.Did you mind them?"<<endl;
+            cout<<"1.Did you type in \"htxps\" but not \"http\" or \"https\"?"<<endl;
+            cout<<"2.Did you want to type in \"exit\"?"<<endl;
+            cout<<"3.Did you type in a other net?"<<endl;
+            cout<<"4.Did you lose any part of the net?"<<endl;
+            cout<<"5.Did you add more part of the net?"<<endl;
+            cout<<"6.Did you want to type in \"cls\"?"<<endl;
+            cout<<"Then type in it again..."<<endl;
+            color(1);
+        }
+    }
+}
+}
+//run it as a cpp file
+//Surfer Ver.4
